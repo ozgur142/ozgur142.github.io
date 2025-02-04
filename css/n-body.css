@@ -1,0 +1,68 @@
+.simulation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#simulation-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.body {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: translate(-1000px, -1000px);
+    pointer-events: none;
+}
+
+
+#body1 { 
+    background: radial-gradient(circle, rgba(255, 223, 0, 0.9) 30%, rgba(255, 140, 0, 0.7) 60%, rgba(255, 255, 255, 0.5) 100%);
+    box-shadow: 
+        0 0 30px rgba(255, 223, 0, 1), 
+        0 0 50px rgba(255, 140, 0, 0.8), 
+        0 0 80px rgba(255, 255, 255, 0.5);
+}
+
+#body2 { 
+    background: radial-gradient(circle, rgba(0, 150, 255, 0.9) 30%, rgba(138, 43, 226, 0.7) 60%, rgba(255, 255, 255, 0.5) 100%);
+    box-shadow: 
+        0 0 30px rgba(0, 150, 255, 1), 
+        0 0 50px rgba(138, 43, 226, 0.8), 
+        0 0 80px rgba(255, 255, 255, 0.5);
+}
+
+#body3 { 
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.9) 30%, rgba(173, 216, 230, 0.7) 60%, rgba(240, 248, 255, 0.5) 100%);
+    box-shadow: 
+        0 0 40px rgba(255, 255, 255, 1), 
+        0 0 70px rgba(173, 216, 230, 0.8), 
+        0 0 100px rgba(240, 248, 255, 0.5);
+}
+
+
+/*
+#body1 { 
+    background: rgba(255, 223, 0, 0.8); 
+    box-shadow: 0 0 40px rgba(255, 223, 0, 1), 0 0 80px rgba(255, 140, 0, 0.6);
+}
+
+#body2 { 
+    background: rgba(0, 150, 255, 0.8); 
+    box-shadow: 0 0 40px rgba(0, 150, 255, 1), 0 0 80px rgba(138, 43, 226, 0.6);
+}
+
+#body3 { 
+    background: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1), 0 0 100px rgba(173, 216, 230, 0.6);
+}
+*/

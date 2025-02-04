@@ -1,0 +1,12 @@
+#avatar-container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#avatar-loading {
+  font-size: 2rem;
+  color: white;
+}
