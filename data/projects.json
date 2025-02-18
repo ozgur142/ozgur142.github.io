@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Hex Game",
+        "description": "Interactive Web Experience",
+        "image": "assets/projectCovers/hexGame.png",
+        "link": "https://github.com/ozgur142/Hex-Game"
+    },
+    {
+        "title": "Reinforcement Learning",
+        "description": "Different reinforcement learning applications",
+        "image": "assets/projectCovers/RL.jpg",
+        "link": "https://github.com/ozgur142/Reinforcement_Learning"
+    },
+    {
+        "title": "Android Apps",
+        "description": "Android application on Google Play",
+        "image": "assets/projectCovers/placeholder.png",
+        "link": "https://play.google.com/store/apps/developer?id=OCD_hali_klim_travel"
+    }
+]
